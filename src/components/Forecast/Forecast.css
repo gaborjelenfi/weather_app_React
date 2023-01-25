@@ -1,0 +1,33 @@
+.forcast_table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+tr td,
+tr th {
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+tr td {
+  min-width: 9rem;
+  padding: 0.3rem;
+}
+
+.forecast_date {
+  font-weight: bold;
+  margin-top: -0.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.forecast_degree {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: -1rem;
+}
+
+.forecast_description {
+  margin-top: -1rem;
+}

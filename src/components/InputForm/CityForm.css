@@ -1,0 +1,45 @@
+.cityForm {
+  width: 100%;
+}
+
+.cityForm_inputBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 1.2rem;
+}
+
+.cityForm_label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.cityForm_input {
+  height: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  align-self: center;
+  max-width: 15rem;
+  align-content: center;
+}
+
+.cityForm_button_submit {
+  align-self: center;
+}
+
+.disabled {
+  cursor: default;
+  color: #b9b9b9;
+  background-color: #353535;
+}
+
+.disabled:hover {
+  background-color: #353535;
+}
+
+.disabled:active {
+  position: relative;
+  top: 0px;
+}

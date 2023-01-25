@@ -1,0 +1,47 @@
+.daily_container {
+  border-radius: 0.5rem;
+  padding: 4rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  width: fit-content;
+  text-align: center;
+  margin: 1rem auto;
+  line-break: anywhere;
+}
+
+.daily_title {
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+
+.daily_date {
+  margin-top: -1rem;
+}
+
+.daily_degree {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: -0.5rem;
+}
+
+.cold {
+  color: var(--cold-color);
+}
+
+.normal {
+  color: var(--normal-color);
+}
+
+.hot {
+  color: var(--hot-color);
+}
+
+.daily_feels {
+  font-weight: bold;
+}
+
+.daily_description {
+  font-size: 1.2rem;
+  margin: -1rem;
+}
+

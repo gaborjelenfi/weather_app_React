@@ -1,0 +1,19 @@
+.pageNotFound_button {
+    font-size: 1.5rem;
+  }
+  
+  .pageNotFound {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .pageNotFound_status {
+    font-size: 7rem;
+  }
+  
+  .pageNotFound_title {
+    font-size: 3rem;
+  }
